@@ -25,14 +25,14 @@ public class Kinito extends Tilefono {
         
         if (super.getNumb().charAt(0) == 6)
             if (super.getDial().charAt(0) == 6)
-                sum += super.getSecs() * super.costs[3];
+                sum += super.getSeck() * super.costs[3];
             else
-                sum += super.getSecs() * super.costs[2];
+                sum += super.getSeck() * super.costs[2];
         else
             if (super.getDial().charAt(0) == 6)
-                sum += super.getSecs() * super.costs[1];
+                sum += super.getSeck() * super.costs[1];
             else
-                sum += super.getSecs() * super.costs[0];
+                sum += super.getSeck() * super.costs[0];
         
         return sum;
     }

@@ -66,7 +66,7 @@ public class main {
             }
         }
 
-        tmp_car =0;
+        tmp_car = 0;
         tmp_moto = 0;
         tmp_truck = 0;
 
